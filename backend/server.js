@@ -35,6 +35,7 @@ async function start() {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
+    
     console.log("Connected to MongoDB");
     app.listen(PORT, () =>
       console.log(`Server listening on http://localhost:${PORT}`)
